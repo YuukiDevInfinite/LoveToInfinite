@@ -47,7 +47,6 @@ function md5(inputString) {
 $(".btn").click(function() {
   if( md5(password.value) == "5333c74492fc4cb0989b926caf1c0ba1" && md5(username.value) == "f04ea09dab6f2f19fa49803b09f416dc")
   { 
-    console.log("ok")
     window.open("/Love_C/index.html", "_blank")
   }
 })
